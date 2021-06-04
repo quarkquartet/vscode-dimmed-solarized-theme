@@ -288,6 +288,41 @@
         "fontStyle": "",
         "foreground": "#268BD2"
       }
+    },
+    {
+        "name": "latex label",
+        "scope": ["variable.parameter.definition.label.latex", "meta.definition.label.latex"],
+        "settings":{
+            "foreground": "#C4467E"
+        }
+    },
+    {
+        "name": "latex section",
+        "scope": ["meta.function.section.section.latex"],
+        "settings":{
+            "foreground": "#6972BD"
+        }
+    },
+    {
+        "name": "latex reference",
+        "scope": ["constant.other.reference.citation.latex","constant.other.reference.label.latex"],
+        "settings":{
+            "foreground": "#C4467E"
+        }
+    },
+    {
+        "name": "latex subsecion",
+        "scope": ["meta.function.section.subsection.latex"],
+        "settings":{
+            "foreground": "#6FACDA"
+        }
+    },
+    {
+        "name": "latex math",
+        "scope": ["constant.character.math.tex","constant.other.general.math.tex","support.class.math.block.environment.latex","constant.numeric.math.tex","constant.other.math.tex","constant.character.escape.tex"],
+        "settings":{
+            "foreground": "#388BCD"
+        }
     }
   ],
   "colors": {
@@ -318,7 +353,7 @@
     "editor.background": "#002B36",
     "editor.foreground": "#93A1A1",
     "editorWidget.background": "#00212B",
-    "editorCursor.foreground": "#D30102",
+    "editorCursor.foreground": "#388BCD",
     "editorWhitespace.foreground": "#93A1A180",
     "editor.lineHighlightBackground": "#073642",
     "editorLineNumber.activeForeground": "#949494",
