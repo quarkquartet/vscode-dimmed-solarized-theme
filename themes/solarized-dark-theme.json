@@ -319,7 +319,21 @@
     },
     {
         "name": "latex math",
-        "scope": ["constant.character.math.tex","constant.other.general.math.tex","support.class.math.block.environment.latex","constant.numeric.math.tex","constant.other.math.tex","constant.character.escape.tex"],
+        "scope": ["constant.character.math.tex","constant.other.general.math.tex","constant.numeric.math.tex","constant.other.math.tex","constant.character.escape.tex","punctuation.math","support.class.math"],
+        "settings":{
+            "foreground": "#388BCD"
+        }
+    },
+    {
+        "name": "latex math environment",
+        "scope": ["support.function.be.latex"],
+        "settings":{
+            "foreground": "#859900"
+        }
+    },
+    {
+        "name": "latex math environment name",
+        "scope": ["meta.function.environment.math.latex"],
         "settings":{
             "foreground": "#388BCD"
         }
